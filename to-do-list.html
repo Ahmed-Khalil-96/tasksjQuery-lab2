@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Include jQuery and jQuery UI -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <!-- Include your custom scripts -->
+    <script src="index.js"></script>
+</head>
+<body>
+    <h1>To Do List</h1>
+    <form id="task-form">
+        <input type="text" name="task-input" id="task-input" placeholder="Add your task here">
+        <input type="submit" id="task-submit" value="Add task">
+    </form>
+    <ul id="task-list"></ul>
+
+    <div class="btn-container">
+        <button class="return-btn" onclick="window.location.href='api.html'">Go Back To All Products Home</button>
+        <button class="return-btn" onclick="window.location.href='index.html'">Go Back To Image task</button>
+    </div>
+</body>
+</html>

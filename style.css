@@ -1,0 +1,186 @@
+/* Image Container */
+/* Image Container */
+.img-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.img {
+    width: 500px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.img:hover {
+    transform: scale(1.05);
+}
+
+.img2 {
+    width: 222px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.img2:hover {
+    transform: scale(1.05);
+}
+
+/* Button Container */
+.btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btns {
+    height: 40px;
+    padding: 10px;
+    background: red;
+    color: white;
+    border: none;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.btns:hover {
+    background: darkred;
+}
+
+/* Fetch Data */
+#fetch-data {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 45px;
+}
+
+.each-product {
+    width: 271px;
+    margin-bottom: 45px;
+    text-align: center;
+    justify-self: center;
+}
+
+.product-img {
+    width: 258px;
+}
+
+/* Heading and Button Container */
+h1, .btn-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.btns {
+    height: 40px;
+    padding: 10px;
+    background: red;
+    color: white;
+    border: none;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* Product Details */
+#product-id {
+    height: 30px;
+    width: 250px;
+}
+
+.input-cont {
+    text-align: center;
+}
+
+.product-details {
+    text-align: center;
+}
+
+#product-details {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.product-img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.product-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.product-desc {
+    margin-bottom: 10px;
+}
+
+.product-price {
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* To-Do List Task */
+#task-form {
+    text-align: center;
+}
+
+#task-input {
+    height: 25px;
+    width: 335px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#task-submit {
+    height: 37px;
+    border-radius: 20px;
+    width: 150px;
+}
+
+li {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+.done-button {
+    margin-left: 100px;
+}
+
+.done-button,
+.delete-button,
+.data-btn,
+.return-btn {
+    margin-right: 10px;
+    height: 34px;
+    width: 94px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.done-button {
+    background-color: #b2ed59;
+}
+
+.delete-button,
+.data-btn,
+.return-btn {
+    background: blue;
+}
+
+.return-btn {
+    width: 250px;
+    height: 50px;
+}
